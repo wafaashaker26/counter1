@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
               });
             },
               color: Color(0xff27445D),
-              height: 65,
+              height: MediaQuery.of(context).size.height*.075,
               shape: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(25))),
               child: Text("Reset",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 27,color: Colors.white),),
             ),
