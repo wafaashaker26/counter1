@@ -24,18 +24,18 @@ class _Column1State extends State<Column1> {
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 37),
         ),
         SizedBox(
-          height: 10,
+          height: MediaQuery.of(context).size.height*.025,
         ),
         Text("$x", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 70)),
         SizedBox(
-          height: 10,
+          height: MediaQuery.of(context).size.height*.025,
         ),
         Text(
           "Add : ",
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
         ),
         SizedBox(
-          height: 10,
+          height: MediaQuery.of(context).size.height*.04,
         ),
         Button1(
             namePoint: "1 point",
@@ -45,7 +45,7 @@ class _Column1State extends State<Column1> {
               });
             }),
         SizedBox(
-          height: 30,
+          height: MediaQuery.of(context).size.height*.04,
         ),
         Button1(
             namePoint: "2 points",
@@ -55,7 +55,7 @@ class _Column1State extends State<Column1> {
               });
             }),
         SizedBox(
-          height: 30,
+          height: MediaQuery.of(context).size.height*.04,
         ),
         Button1(
             namePoint: "3 points",
@@ -64,9 +64,6 @@ class _Column1State extends State<Column1> {
                 x+=3;
               });
             }),
-        SizedBox(
-          height: 20,
-        ),
       ],
     );
   }
