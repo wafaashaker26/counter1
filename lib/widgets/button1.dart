@@ -18,7 +18,7 @@ final Function() onpressed1;
       child: Text(
         namePoint,
         style: TextStyle(
-            fontWeight: FontWeight.bold, fontSize: 25, color: Colors.white),
+            fontWeight: FontWeight.bold, fontSize: 30, color: Colors.white),
       ),
     );
   }
